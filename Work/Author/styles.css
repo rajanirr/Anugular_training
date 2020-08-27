@@ -1,0 +1,19 @@
+h1 {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    
+   }
+
+   
+   input {
+ 
+    border: 1px solid #000;
+    
+   }

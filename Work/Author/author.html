@@ -1,0 +1,69 @@
+<html>
+<head>
+<script type="text/javascript" src="table_script.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+<tr>
+<th>ID</th>
+<th>Author Name</th>
+<th>Biography</th>
+<th>Email</th>
+<th>List of Books</th>
+</tr>
+
+<tr id="row1">
+<td id="name_row1">121</td>
+<td id="country_row1">Rajani</td>
+<td id="age_row1">test</td>
+<td id="email_row1">tesrajani@gmail.comt</td>
+<td id="list_row1">book1</td>
+<td>
+<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+</td>
+</tr>
+
+<tr id="row2">
+    <td id="name_row2">150</td>
+    <td id="country_row2">Tanvy</td>
+    <td id="age_row2">test book</td>
+    <td id="email_row2">tesr@gmail.comt</td>
+    <td id="list_row2">book2</td>
+<td>
+<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+</td>
+</tr>
+
+<tr id="row3">
+    <td id="name_row3">160</td>
+    <td id="country_row3">Madhav</td>
+    <td id="age_row3">test book1</td>
+    <td id="email_row3">madhav@gmail.comt</td>
+    <td id="list_row3">book1</td>
+<td>
+<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+<input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+</td>
+</tr>
+
+<tr>
+<td><input type="text" id="new_id"></td>
+<td><input type="text" id="new_name"></td>
+<td><input type="text" id="new_biography"></td>
+<td><input type="text" id="new_email"></td>
+<td><input type="text" id="new_books"></td>
+<td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.checked {
+    color: orange;
+  }
+  .rating {
+    color: #a9a9a9;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+  margin-top:20px;
+}

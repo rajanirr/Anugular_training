@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
     `,
   ],
   template: `
-    <div class="footer">&copy; <a href="#">Bhavya Jain Corp Inc</a></div>
+    <div class="footer">&copy; <a href="#">@ Corp Inc</a></div>
   `,
 })
 export class BooksWebFooterComponent {}

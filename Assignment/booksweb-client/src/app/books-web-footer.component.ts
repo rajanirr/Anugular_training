@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: #a82424;
+        background-color: blue;
         color: white;
         text-align: center;
         margin-top: 150px;

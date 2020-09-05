@@ -21,13 +21,13 @@ p {
   color: #fff;
 }
 .navbar {
-  background-color: #a82424;
+  background-color:blue;
 }
 .view {
   /* background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")
     no-repeat center center; */
   background-size: cover;
-  background-color: #a82424;
+  background-color:blue;
 }
 html,
 body,
